@@ -2,7 +2,7 @@
 # from KataDS.Stack import Stack
 from KataSearching.LinearSearch import linearSearch
 from KataSearching.BinarySearch import binarySearch 
-
+from KataSorting.InsertionSort import insertionSort
 # # Create a LinkedList
 # ll = LinkedList()
 # ll.insertNode(1)
@@ -47,3 +47,7 @@ print(linearSearch(x, arr)) # 2
 arr = [1, 2, 3, 4, 5]
 x = 3
 print(binarySearch(x, arr)) # 2
+
+unsortedArr = [9, 5, 4, 1]
+insertionSort(unsortedArr)
+print(unsortedArr)
