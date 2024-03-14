@@ -53,7 +53,3 @@ PhoneBook = {
     }
 }
 
-for item in PhoneBook:
-    print(item)
-    for internalItem in item:
-        print(internalItem)
