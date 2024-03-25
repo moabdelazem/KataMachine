@@ -3,9 +3,9 @@ Linked List Node
 Create a Node class that takes an integer value and a next pointer.
 """
 class Node:
-    def __init__(self, data):
+    def __init__(self, data=None, next=None):
         self.data = data
-        self.next = None
+        self.next = next 
 
 """LinkedList
 Create a LinkedList class with a headNode and methods to insert a node at the head of the list and at the end of the list.
